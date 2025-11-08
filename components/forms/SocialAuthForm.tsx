@@ -28,11 +28,11 @@ const SocialAuthForm = () => {
           height={20}
           className="invert-colors object-contain mr-2.5"
         />
-        <p>Continue with GitHub</p>
+        <p>Log in with GitHub</p>
       </Button>
       <Button className={buttonClass} onClick={() => handlSignIn(LOGIN_PLATFORM.GOOGLE)}>
         <Image src="/icons/google.svg" alt="Google logo" width={20} height={20} className="object-contain mr-2.5" />
-        <p>Continue with Google</p>
+        <p>Log in with Google</p>
       </Button>
     </div>
   );
