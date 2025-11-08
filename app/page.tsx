@@ -1,6 +1,8 @@
 
+
 export default function Home() {
   return (
-    <h1 className="text-3xl text-light-500 font-black">Hello World</h1>
+    <h1 className="text-3xl font-black">Welcome to Dev Overflow</h1>
+
   );
 }

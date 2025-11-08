@@ -1,0 +1,11 @@
+---
+alwaysApply: true
+---
+
+# Always Use Bun Package Manager Rules
+
+## Package Management
+- Always use `bun` or `bunx` for installing packages instead of npm/yarn/pnpm
+- Use `bun add <package>` for dependencies
+- Use `bun add -d <package>` for dev dependencies
+- Use `bunx <command>` for running package executables (e.g., `bunx create-next-app`)
