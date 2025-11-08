@@ -105,7 +105,7 @@
 }
 
 .dark {
-  --background-image-auth: url("/images/auth-light.png");
+  --background-image-auth: url("/images/auth-dark.png");
   --shadow-100: 0px 2px 10px 0px rgba(46, 52, 56, 0.1);
   --shadow-200: 2px 0px 20px 0px rgba(39, 36, 36, 0.04);
   --background: oklch(0.145 0 0);
